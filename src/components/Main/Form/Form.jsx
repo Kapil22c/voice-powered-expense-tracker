@@ -8,7 +8,6 @@ import {
   InputLabel,
   Select,
   MenuItem,
-  FormControlLabel,
 } from "@material-ui/core";
 import useStyles from "./styles";
 
@@ -37,7 +36,7 @@ const Form = () => {
             <MenuItem value="business">Business</MenuItem>
             <MenuItem value="salary">Salary</MenuItem>
           </Select>
-        </FormControl> 
+        </FormControl>
       </Grid>
       <Grid item xs={6}>
         <TextField type="number" label="Amount" fullWidth />
